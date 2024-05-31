@@ -1,0 +1,65 @@
+.bg-con {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.content-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max(60%, 500px);
+  padding: 25em;
+  border-radius: 10px;
+  background: #ffffff91;
+}
+
+.instruction-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 2.7rem;
+  color: #0f172a;
+}
+
+.rating-con {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.emoji-btn {
+  border: none;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+.emoji-img {
+  width: 65px;
+}
+
+.emoji-text {
+  font-size: 1.4rem;
+  color: #0f172a;
+}
+
+.heart-emoji {
+  width: 65px;
+}
+
+.thanks-text {
+  margin-top: 15px;
+  font-size: 2.5rem;
+  color: #0f172a;
+}
+
+.thanks-desc {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #0f172a;
+}
